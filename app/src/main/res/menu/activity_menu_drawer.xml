@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/home_24px"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/nav_especialidades"
+            android:icon="@drawable/medical_mask_24px"
+            android:title="Especialidades"/>
+
+        <item
+            android:id="@+id/nav_medicos"
+            android:icon="@drawable/account_circle_24px"
+            android:title="Médicos"/>
+
+        <item
+            android:id="@+id/nav_registrar_cita"
+            android:icon="@drawable/event_24px"
+            android:title="Registrar Cita"/>
+
+        <item
+            android:id="@+id/nav_reprogramar_cita"
+            android:icon="@drawable/edit_calendar_24px"
+            android:title="Reprogramar Cita"/>
+
+        <item
+            android:id="@+id/nav_calificar_atencion"
+            android:icon="@drawable/kid_star_24px"
+            android:title="Calificar atención"/>
+
+        <item
+            android:id="@+id/nav_acerca_de"
+            android:icon="@drawable/tooltip_2_24px"
+            android:title="Acerca de"/>
+
+
+
+    </group>
+
+</menu>
