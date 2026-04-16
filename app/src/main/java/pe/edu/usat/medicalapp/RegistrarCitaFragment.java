@@ -51,15 +51,13 @@ public class RegistrarCitaFragment extends Fragment {
     }
 
     private void filtrarMedicosPorEspecialidad(String especialidadSeleccionada) {
-        System.out.println("11111");
         if (listaMedicos != null) {
             listaMedicos.clear();
         }
-
-        System.out.println("22222");
         //Obtener los médicos que pertenezcan a la especialidad seleccionada
         listaMedicos = DatosClinica.obtenerListaMedicosPorEspecialidad(especialidadSeleccionada);
         cargarMedicos(listaMedicos);
+
     }
 
     private void cargarMedicos(ArrayList<Medico> nuevaLista) {
